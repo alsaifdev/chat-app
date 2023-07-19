@@ -1,0 +1,45 @@
+.avatar {
+  border-radius: 50%;
+}
+.bx-search {
+  width: 45px;
+  height: 45px;
+  font-size: 20px;
+}
+.icon-back {
+  font-size: 20px;
+}
+.icon-send {
+  font-size: 25px;
+  transform: rotate(300deg);
+}
+.search-box {
+  width: 100%;
+  height: 45px;
+}
+.flex-center {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+a {
+  color: #000;
+  text-decoration: none;
+}
+.h-100vh {
+  height: 100vh;
+}
+.chat-list-width {
+  max-width: 80%;
+  padding: 5px 10px;
+  background: #0099ff;
+}
+.chat-body {
+  margin-top: 80px;
+  height: calc(100vh - 140px);
+}
+.chat-body .chat-lists {
+  height: 100%;
+  overflow-y: scroll;
+  padding-bottom: 50px;
+}
